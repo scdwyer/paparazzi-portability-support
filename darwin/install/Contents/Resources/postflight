@@ -52,7 +52,7 @@ chown $usr:$grp ~/.gdbinit
 
 SCRIPTPATH="$( dirname "$0" )"
 
-cp $SCRIPTPATH/pprz-env-set /opt/paparazzi/bin/pprz-env-set
+cp ${SCRIPTPATH}/pprz-env-set /opt/paparazzi/bin/pprz-env-set
 chmod 755 /opt/paparazzi/bin/pprz-env-set
 chown $usr:$grp /opt/paparazzi/bin/pprz-env-set
 # Run it
